@@ -3,7 +3,7 @@
     <thead>
       <tr>
         <th scope="col">
-          <input 
+          <input
             type="checkbox"
             class="form-check-input"
             [(ngModel)]="parentSelector"
@@ -24,6 +24,7 @@
             [checked]="n.select"
             (change)="onChangeFood($event)"
           >
+          
         </th>
         <td>{{ n.name }}</td>
       </tr>

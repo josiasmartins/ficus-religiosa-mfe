@@ -32,6 +32,7 @@ export class AppComponent {
         return d;
       }
       
+      // console.log(d, 'retornado')
       return d;
       
     })
